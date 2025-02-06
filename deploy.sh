@@ -42,8 +42,8 @@ deploy() {
       --server localhost:30080 --plaintext \
       --dest-namespace test-559-10 \
       --dest-server https://kubernetes.default.svc \
-      --repo https://github.com/csun-cpointe/test-559-10.git \
-      --path test-559-10-deploy/src/main/resources \
+      --repo https://github.com/csun-cpointe/test-559-charts.git \
+      --path . \
       --revision $branch \
       --helm-set spec.targetRevision=$branch \
       --values values.yaml \
