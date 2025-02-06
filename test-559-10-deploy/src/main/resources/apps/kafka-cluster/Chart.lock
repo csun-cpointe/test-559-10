@@ -1,0 +1,6 @@
+dependencies:
+- name: aissemble-kafka-chart
+  repository: oci://ghcr.io/boozallen
+  version: 1.10.0
+digest: sha256:cf62c0ccc2fe8164a1274fdd6437a24f28561eb27688a3a1664d8ea60f6736c0
+generated: "2025-02-06T08:20:03.171701-08:00"
