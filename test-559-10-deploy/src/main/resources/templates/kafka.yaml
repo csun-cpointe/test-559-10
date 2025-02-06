@@ -2,12 +2,12 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: kafka-cluster
-  namespace: argocd
+  namespace: test-559-10
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: argocd
+    namespace: test-559-10
     server: {{ .Values.spec.destination.server }}
   project: default
   source:
